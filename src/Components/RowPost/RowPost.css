@@ -14,9 +14,24 @@
     display: none;
 }
 
-
 .poster{
+    cursor: pointer;
     max-height: 250px;
     margin-right: 10px;
 
+}
+
+.smaller-poster{
+    cursor: pointer;
+    max-height: 150px;
+    margin-right: 10px;
+    transition: all .4s ease;
+}
+
+.poster:hover{
+    transform: scale(1.1);
+}
+
+.smaller-poster:hover{
+    transform: scale(1.1);
 }
